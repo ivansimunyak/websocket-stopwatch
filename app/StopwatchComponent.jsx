@@ -48,7 +48,7 @@ const StopwatchComponent = () => {
         let elapsedSeconds = remainingSeconds % 60;
     
         console.log("Elapsed time:", elapsedHours, "hours", elapsedMinutes, "minutes", elapsedSeconds, "seconds");
-    
+        
         // Update state
         setRunning(data.running);
     });
